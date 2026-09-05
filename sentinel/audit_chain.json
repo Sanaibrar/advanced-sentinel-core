@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "action": "System Boot & Core Initialization",
+    "timestamp": "09:35:41",
+    "prev_hash": "00000000...",
+    "hash": "e54f814c..."
+  },
+  {
+    "id": 2,
+    "action": "ARP Inventory Scanned - 2 Node(s) Active",
+    "timestamp": "09:46:43",
+    "prev_hash": "e54f814c...",
+    "hash": "d1d5acf8..."
+  },
+  {
+    "id": 3,
+    "action": "ARP Inventory Scanned - 2 Node(s) Active",
+    "timestamp": "11:12:59",
+    "prev_hash": "d1d5acf8...",
+    "hash": "1b40afae..."
+  }
+]

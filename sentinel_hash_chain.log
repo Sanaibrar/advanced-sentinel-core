@@ -1,0 +1,215 @@
+PREV_HASH|TIMESTAMP|LEVEL|MESSAGE
+c1898e23a88de6fa98cc250e481166015ffcac0e1e28d15d1b0f64bd5f95b48c|2026-09-01 20:26:20|INFO    |Advanced Sentinel Core - V2 Starting up
+9aa67f927d5f815ee46d1ff2bde92ad6b6f97d50e7e2865b42602f2cce31be72|2026-09-01 20:26:20|INFO    |Scanning network 192.168.1.0/24 (local IP: 192.168.1.7)
+87f6ed3b45cedfee3d3b9436f683fe3c6f8d0d3dfffa6f1592461870a8c39218|2026-09-01 20:26:24|INFO    |Found 5 device(s) on the network
+e060db43a67bdc4bfab97da1aad07bb2e15360d17fa435d826efab50854e7057|2026-09-01 20:26:24|INFO    |No new devices or anomalies this cycle.
+123b7c17dc6c7c1ac12f6f9ee61b19710f57f88c02fded431b9aac2706381481|2026-09-01 20:26:24|INFO    |Network Health Score: 100/100
+d421f717bf63723c615c606bd835e2fd526a306c7857bb8652a638302b66878c|2026-09-01 20:26:24|INFO    |Sleeping 60s until next scan...
+a844a42593a4eaeeabd36a383ec22e0688546f42cfb3fccf1f9d23082c9eb6be|2026-09-01 20:27:24|INFO    |Scanning network 192.168.1.0/24 (local IP: 192.168.1.7)
+50e3d1c18e9e1bee093a594b5c624300be34f3b85478beacbb6b90c70c9a189a|2026-09-01 20:27:29|INFO    |Found 5 device(s) on the network
+1e61583ce340faa34658ae280af613a88c156ec3b22c6cdb2737953751a82b80|2026-09-01 20:27:29|INFO    |No new devices or anomalies this cycle.
+8ecf081a5a8fd86c219483336ccd5a024fa658152d1c2ae6e3e5cb21ba96d441|2026-09-01 20:27:29|INFO    |Network Health Score: 100/100
+85d40560a0dcaae0f3e5ab15f37234c479409b27c0a38a19f41982d6e800a2b8|2026-09-01 20:27:29|INFO    |Sleeping 60s until next scan...
+6b19ab9c686dca57c61525dd0e873ee2ea497f8a72f62f093bca92f64ec1468f|2026-09-01 20:28:29|INFO    |Scanning network 192.168.1.0/24 (local IP: 192.168.1.7)
+ae53c0c25124d1f0421d3154c64e36f772f0fcd436533f815df2b5556ca14345|2026-09-01 20:28:33|INFO    |Found 5 device(s) on the network
+93402524cf991a7cf0b2a7182e41fc4d73c1fb7c5fa3447ec3109b7614ac6473|2026-09-01 20:28:33|INFO    |No new devices or anomalies this cycle.
+8ce76797a6242c5ebad2b5fa64b62f2c3c7b0f8209c8715241e0e84a83ce6cd0|2026-09-01 20:28:34|INFO    |Network Health Score: 100/100
+7fd0366adc8e4cf411e18fc43dbcdc269068cb60b2150133b44d8a869b0fc599|2026-09-01 20:28:34|INFO    |Sleeping 60s until next scan...
+349da0fd25744759f6f5c193517a28af7f8c28cf5aae1a7c7ddf40e20c647f47|2026-09-01 20:29:34|INFO    |Scanning network 192.168.1.0/24 (local IP: 192.168.1.7)
+855af18769f705e99d1dd5cb9f374af866014abdb9477378839c6f8dce677a24|2026-09-01 20:29:38|INFO    |Found 5 device(s) on the network
+650733b21fb7c4d534357e4b03141fba5d3f9fc3a866a673a5b65d280e9db292|2026-09-01 20:29:38|INFO    |No new devices or anomalies this cycle.
+8c71089a0e0dbef78417fb87fe537917a5faa4ba559e2a29eebdf02973603a9c|2026-09-01 20:29:38|INFO    |Network Health Score: 100/100
+d753f71c3994cccd240098d25068c2444768dc457967cf58d4bd1050eaa7c706|2026-09-01 20:29:39|INFO    |Sleeping 60s until next scan...
+74be80f1b892edd3b7d570a483bcaace93579dc4bd25de6361aea96805a771fd|2026-09-01 20:30:39|INFO    |Scanning network 192.168.1.0/24 (local IP: 192.168.1.7)
+cc1a77c55031d5693ae4942facc05f27d54beb822ed79c110825ff338695c9d6|2026-09-01 20:30:43|INFO    |Found 5 device(s) on the network
+57eafea158c05d84bd5be0e470826eab96c599fe6ed39c6f2a48c958a1ac11d5|2026-09-01 20:30:43|INFO    |No new devices or anomalies this cycle.
+1c540b25249df175e9c94641d6ac8323bf4b54930e10ad38ebfb7e4e713767d4|2026-09-01 20:30:43|INFO    |Network Health Score: 100/100
+e9234e0af12b0a572593b5c1b2c19d41480cb66f21f1e7829d49da949cd475ae|2026-09-01 20:30:43|INFO    |Sleeping 60s until next scan...
+224fc6aaee213b6c180ff7fc9bad791ae66856893d490de6bff34ffc170b0156|2026-09-01 20:31:43|INFO    |Scanning network 192.168.1.0/24 (local IP: 192.168.1.7)
+baf1c291e5a1f03950c0d116132975ea151374943e1fcd068f30cdc536aa4df6|2026-09-01 20:31:48|INFO    |Found 5 device(s) on the network
+e16ce65f5935ffbbbef12e8662d6518157df1cad65988d8e5c50141825702a27|2026-09-01 20:31:48|INFO    |No new devices or anomalies this cycle.
+23f7a0d61f73594b57e0e683e6c7e3920691fcdf814b214170f3fa6006acab33|2026-09-01 20:31:48|INFO    |Network Health Score: 100/100
+2f3ec92724ad9813581deb9581c1c2425255b44af2beb2b63c006bf8f46a436d|2026-09-01 20:31:48|INFO    |Sleeping 60s until next scan...
+fe933b0a7e8f57c4eb3df9db25ee62223885d78ddadf8da157ad9cbe193de282|2026-09-01 20:32:48|INFO    |Scanning network 192.168.1.0/24 (local IP: 192.168.1.7)
+437f352ac071dba68fe8d5a7a16a842ebe17034c7c295433a9de743eb2af6b0b|2026-09-01 20:32:52|INFO    |Found 5 device(s) on the network
+99a485422a94950142982e775a3e798c891dca95ce20d5662440f0229d0b5863|2026-09-01 20:32:52|INFO    |No new devices or anomalies this cycle.
+18d90310375ffc7cd2724226b9b1c1d952280cd61bb10da1cf6f53ac9869e585|2026-09-01 20:32:52|INFO    |Network Health Score: 100/100
+25c8b6ceec26fcbc30d0cec9905c16192e17d0bb4241b6c18a9bd8876bfe17a4|2026-09-01 20:32:52|INFO    |Sleeping 60s until next scan...
+f953c42cbb7151fe48c157ef19baef5f0788149f9340e65ca7aba8104ddb56f2|2026-09-01 20:33:52|INFO    |Scanning network 192.168.1.0/24 (local IP: 192.168.1.7)
+e0e6aeebdcbcd83562216159c82d2a5da4be653f61f11ccc2e2d64bf77af3872|2026-09-01 20:33:57|INFO    |Found 5 device(s) on the network
+f8a75ab4f6543cd420ab20c39cd8972da8158510601c3b1d40018bbd56e99007|2026-09-01 20:33:57|INFO    |No new devices or anomalies this cycle.
+c2bdf834f70ec069d9c36b870dc5fc39002fe80dae33d3163f728bc596115022|2026-09-01 20:33:57|INFO    |Network Health Score: 100/100
+6e32ab5a2e8966a2831e87d5291625026bad2c83b088a0626ffd3cc9cc55f551|2026-09-01 20:33:57|INFO    |Sleeping 60s until next scan...
+fd36466a9b5d43ada20002744e45092700723ec94d6ef0b825d6430907be5616|2026-09-01 20:34:57|INFO    |Scanning network 192.168.1.0/24 (local IP: 192.168.1.7)
+e57f5e325cfabd072fbba8c0ad69ffe2979e351ad9ed8ac884059c68bf73685d|2026-09-01 20:35:02|INFO    |Found 5 device(s) on the network
+744c049c5ad73aee2dede836a25285e738eb1478d33bf593e708a5be787ced7a|2026-09-01 20:35:02|INFO    |No new devices or anomalies this cycle.
+a2d97cd819600d6ed885bea76249bb2efbbc20e361e2a7b6036a7d00fa358e81|2026-09-01 20:35:02|INFO    |Network Health Score: 100/100
+e18bb893d663126ccce39161b124ea90bece74aa91dbb54fb41447de7fcbe3c8|2026-09-01 20:35:02|INFO    |Sleeping 60s until next scan...
+745ad5c0e564195a6414283622da18a6142ca3543e8a2e92aad2c99fae1674f3|2026-09-01 20:36:02|INFO    |Scanning network 192.168.1.0/24 (local IP: 192.168.1.7)
+93ae2f38f9fa3ca9095e24ab554ce1a5a51a7942f085d367aa2c61a267f76122|2026-09-01 20:36:06|INFO    |Found 4 device(s) on the network
+97ed7318c60270edbaa0b7c64f393dfd77c4bae28e82a1621b8ff5150cf6756e|2026-09-01 20:36:06|INFO    |No new devices or anomalies this cycle.
+f979e2c86c0c15347e78ab91bd199dc0c47fa83de318d408e98ca0aaa00b7364|2026-09-01 20:36:07|INFO    |Network Health Score: 100/100
+31d95921c51f23d3d44dfffdd9d6712e3a9db808ba212b2733772b3db7a56e81|2026-09-01 20:36:07|INFO    |Sleeping 60s until next scan...
+02ffa5ca95a6ab0f1ada3e4928af564b3bf4718f7c350d32948a9e1453232387|2026-09-01 20:36:30|INFO    |Stopped by user (Ctrl+C). Exiting.
+9227aa4e1234d0b2678961ad303a38fc008cdf69a00c2870e93131b24aa734a6|2026-09-01 20:37:00|INFO    |Advanced Sentinel Core - V2 Starting up
+4462a20a41b8ed7875101f9955e13d13fc1b0ff7d0625b094e4f58c9075ec069|2026-09-01 20:37:00|INFO    |Scanning network 192.168.1.0/24 (local IP: 192.168.1.7)
+82d9a902f729760b021a1dc3ada9912287da567a40381f78fec61db2907e62cf|2026-09-01 20:37:04|INFO    |Found 4 device(s) on the network
+d82d24747246b97fff8d051c12492c2243ae8003347bbe195741f0a6a27cdd95|2026-09-01 20:37:04|INFO    |No new devices or anomalies this cycle.
+0451eca834484c857f0565fbf6578a1d0782c6076b2cf5223dc98ccee092a824|2026-09-01 20:37:04|INFO    |Network Health Score: 100/100
+8e58708f23c56d5a1155d586a713f8a1d3fd1145c5de31e4328cb3d4d3f5c017|2026-09-01 20:37:04|INFO    |Topology Gateway: 192.168.1.1 | Connected Nodes: 3
+c0f053cb6ca7df76bc58467d5ca40210751f0ff2d1a5c24f86047d611d869d7a|2026-09-01 20:37:05|INFO    |Sleeping 60s until next scan...
+dc00e275202ac4d02ac35a3177b2e6e7f07cd737e7723ec3e55b8d3036ecc0de|2026-09-01 20:38:05|INFO    |Scanning network 192.168.1.0/24 (local IP: 192.168.1.7)
+029e55422b3f0e69182408aeaa9896e9f3e201e1a54a995e976a34ebf8757781|2026-09-01 20:38:09|INFO    |Found 5 device(s) on the network
+80984279c9134b58462d034fe43846d38708d8d54f2caa1cd746d22d3ffeed66|2026-09-01 20:38:09|INFO    |No new devices or anomalies this cycle.
+b940e79f9794a16a158f03cd55ba3ee365d3945965bed53c2020991d638dfe44|2026-09-01 20:38:09|INFO    |Network Health Score: 100/100
+1c21938a40c8a464e62f7fb63d5ed0e339f34767564192fa56c1f5ec38ecb0cc|2026-09-01 20:38:09|INFO    |Topology Gateway: 192.168.1.1 | Connected Nodes: 4
+e9d779aaf845355fd0145c189e14ab5201292b36fe3a179e1082b7299732652c|2026-09-01 20:38:09|INFO    |Sleeping 60s until next scan...
+ffdd19653895b91710363439ff820a5603caa6389fd7c4384dccb487016e20c3|2026-09-01 20:39:09|INFO    |Scanning network 192.168.1.0/24 (local IP: 192.168.1.7)
+9d4bb8b52d912a8a2da7ed113e6d752572ad386e2555fbc951d39a222a4ddfe7|2026-09-01 20:39:14|INFO    |Found 5 device(s) on the network
+2f6aa14e6f237c98c24b46536fbe70941212d3ce7b9eff22d0e4208d0bd40ebc|2026-09-01 20:39:14|INFO    |No new devices or anomalies this cycle.
+581b943d0db091bc26c87249779c6d8ac28c21e158806d45c0ab246b1218efdd|2026-09-01 20:39:14|INFO    |Network Health Score: 100/100
+4bfc3d4b5bd3fc16adb339bf5f78f4974330f1eb6f4941f9acef605b6272f89e|2026-09-01 20:39:14|INFO    |Topology Gateway: 192.168.1.1 | Connected Nodes: 4
+2268dd511624d4fbae2eea2eba0593f170160add3b9e01237630c05b6309b857|2026-09-01 20:39:14|INFO    |Sleeping 60s until next scan...
+e5a81123eec3c05f5fba1be625813547e975ff4dad24491cd13781d6171d5558|2026-09-01 20:40:14|INFO    |Scanning network 192.168.1.0/24 (local IP: 192.168.1.7)
+a4b0ffdbbfd05bf9192724dcce3dea13212d42f0f141ed6533b3d989f8830eca|2026-09-01 20:40:19|INFO    |Found 5 device(s) on the network
+3b40c63dd424ae95b6d471f427362d127350729116e1ab6d7d83e1a723a1eeaf|2026-09-01 20:40:19|INFO    |No new devices or anomalies this cycle.
+b1a72942ffa89d15b183bfa1e08581b40ed312247553bc4f94004fdd223f4d22|2026-09-01 20:40:19|INFO    |Network Health Score: 100/100
+6c9444e29675035c4b6078b52de37df5a8f0b3cdc6e47d682c5bb3f0b6277c2a|2026-09-01 20:40:19|INFO    |Topology Gateway: 192.168.1.1 | Connected Nodes: 4
+bccbc9a42bdc2042b1b449d7dccff2aa005c2f0b3c12884beae686de89c9978f|2026-09-01 20:40:19|INFO    |Sleeping 60s until next scan...
+5983bfa53e9a689dbedca3386939e621deffefc3bc67c40545ee3c031f21f0ab|2026-09-01 20:41:09|INFO    |Stopped by user (Ctrl+C). Exiting.
+464eff361161d541ed0010885f7bfc6d363ca61d30418a8861ea22e99f137e3b|2026-09-01 20:41:31|INFO    |Advanced Sentinel Core - V2 Starting up with Risk Engine
+6aa4fd5fdb8b6a615a4fe2b1d593f0f57219f8e659503d0f28b1508a80c2ebc0|2026-09-01 20:41:31|INFO    |Scanning network 192.168.1.0/24 (local IP: 192.168.1.7)
+25ff71bb38aa0ab29e34e26cad40f59e95e58c5e3ecdd56ecf5ffdcd869e5a35|2026-09-01 20:41:35|INFO    |Found 5 device(s) on the network
+d0439374db8add3f1d4ed8dc6ba40f3a7256239cc1fa4574f0a625196f55b6fb|2026-09-01 20:41:35|INFO    |No new devices or anomalies this cycle.
+fc4f55a803c7fbd7a2cbb06e7673c1371f1297b82c6c9ee925451f0533236ac2|2026-09-01 20:41:35|INFO    |Network Health Score: 100/100
+f428e8912296d5b979cdd1881ea72efc9ab7b674acd63f840289d7c12edbfbfa|2026-09-01 20:41:35|INFO    |Topology Gateway: 192.168.1.1 | Connected Nodes: 4
+0365d52bd5ddeecea961983af7ab88072202159beb86872f9680a34663ada6f3|2026-09-01 20:41:36|INFO    |Sleeping 60s until next scan...
+584c34f7a87a2ac0f3b5bf302f983d71dc2c0324bc9bb1e4f96866e90874b0c1|2026-09-01 20:42:36|INFO    |Scanning network 192.168.1.0/24 (local IP: 192.168.1.7)
+29fb4f4b653dc91445469e03974e09911a791da054da2b5263b705448778af75|2026-09-01 20:42:40|INFO    |Found 4 device(s) on the network
+4d8da1aa0bb53d94384ea0a02ab3e80fa11e263130b9077e000be3691e9b8a67|2026-09-01 20:42:40|INFO    |No new devices or anomalies this cycle.
+acf797059c6f43ad544d4792cbcf49e8c01bd2fb94327450fdb652e9488670d5|2026-09-01 20:42:40|INFO    |Network Health Score: 100/100
+1739d5e4c7f6de332ac677114e9fd9fca01d09cefb63d167bd3381845761338c|2026-09-01 20:42:40|INFO    |Topology Gateway: 192.168.1.1 | Connected Nodes: 3
+ca00d681f6b2eff778f50ebd6f6d4a6788d49801c320f2d3702170f01384e48b|2026-09-01 20:42:40|INFO    |Sleeping 60s until next scan...
+30c23b1345dfc12dd520b6200022b8e5395f4ea8a8d0df656f73595bcda3e444|2026-09-01 20:43:40|INFO    |Scanning network 192.168.1.0/24 (local IP: 192.168.1.7)
+7c160084aac74c11bdd056c5be84742a4f5fb9b46ba3ec7e0a57c62e1b0d3ff5|2026-09-01 20:43:45|INFO    |Found 5 device(s) on the network
+336800c7073abf3baec13a90f02229de84dc4edc00dc4fa550c32c5c1206c439|2026-09-01 20:43:45|INFO    |No new devices or anomalies this cycle.
+c06db4cf169e0e3b6f9ebb2b60f27ffb2fc5884fc8bfc89c12d1e9d0067977dd|2026-09-01 20:43:45|INFO    |Network Health Score: 100/100
+ce1f47121c1541324ab8cdb95db55def1d3cd53034111eba440a3d865c170dd9|2026-09-01 20:43:45|INFO    |Topology Gateway: 192.168.1.1 | Connected Nodes: 4
+8d557396c61fa1534dd63500747f77175486a6de7ecee7e0fc55c15e46556e2e|2026-09-01 20:43:45|INFO    |Sleeping 60s until next scan...
+5b5bb5dd4b901a5b487002b826f1cd9829fbf63e16ad0e78507dbc12987ddbc8|2026-09-01 20:44:45|INFO    |Scanning network 192.168.1.0/24 (local IP: 192.168.1.7)
+16e8941ef6bf16a08cd06d01adcd8ad781a4f4d019060f66e8999adaca51d6d2|2026-09-01 20:44:50|INFO    |Found 5 device(s) on the network
+0a9b4ccdbd444730e8cb57aa71c7838ab451ee34ce30ad3fbe4336a1a67626e4|2026-09-01 20:44:50|INFO    |No new devices or anomalies this cycle.
+9267c9582bf6e4c583e98e9e36111b44d6df6dc646c7e5d6d63838a6392a9251|2026-09-01 20:44:50|INFO    |Network Health Score: 100/100
+1867f80f3630308dfdc54aebd8429b3a452a5f177c4aeb39d327f904095ecb6b|2026-09-01 20:44:50|INFO    |Topology Gateway: 192.168.1.1 | Connected Nodes: 4
+1db847e181c019748fbd63779bc983cdb471a20e7807f89c1a131270c524908a|2026-09-01 20:44:50|INFO    |Sleeping 60s until next scan...
+2720249246954ff9086f3f6b15edc3e86f4cb31b9a1e6f2c3a185a81290837f7|2026-09-01 20:45:03|INFO    |Stopped by user (Ctrl+C). Exiting.
+a1ce9901ce5b204efddef44704587650ed3cf6aac35320a0c9f92cbec4ae2c93|2026-09-01 20:45:51|INFO    |Advanced Sentinel Core - V2 Starting up with Behavioral & Risk Engine
+523e7266770a18915bd0708a790da1ba88ba12744d3f44a97f3c38a699fcd858|2026-09-01 20:45:51|INFO    |Scanning network 192.168.1.0/24 (local IP: 192.168.1.7)
+b4ed96437005fff799f0b70172aa90d101c3e3b8ab3785e40272dc13490507ea|2026-09-01 20:45:55|INFO    |Found 4 device(s) on the network
+a86a0295804501071d2b4f55620b485bd55f9f1187824d07355319bb10955b31|2026-09-01 20:45:55|INFO    |No new devices or anomalies this cycle.
+d187c307716c2f2a364cef19a3d2b6eb32fb74b49262dbdeb4d71e2a85fa3e32|2026-09-01 20:45:55|INFO    |Network Health Score: 100/100
+95aac5d44d7db92fc66b31f3b58ad9a487f1af35172ad5db1b8daf7721b9c3bf|2026-09-01 20:45:55|INFO    |Topology Gateway: 192.168.1.1 | Connected Nodes: 3 | Baseline Tracked: 4 devices
+31e75b5e3c20f7b065c598d3f118b8ed832b4292743b8a037b23f7abd669f82e|2026-09-01 20:45:56|INFO    |Sleeping 60s until next scan...
+904087028b4686ea92d0bafd3e9f51922ddf0d9a2f54a23fa9328bf68cc62cac|2026-09-01 20:46:56|INFO    |Scanning network 192.168.1.0/24 (local IP: 192.168.1.7)
+c071559eee71bf95c272e668c2fad22e3aa2eea08364f92b076a5625a66c8950|2026-09-01 20:47:00|INFO    |Found 4 device(s) on the network
+851aece65147dac415eff1f443b7b8a7f3a94f29479708a24f57806a8ed473ff|2026-09-01 20:47:00|INFO    |No new devices or anomalies this cycle.
+cb4f8ea09b801eb8d2f7acf3537c8588a651e193df74cf153a42a65b1d49a276|2026-09-01 20:47:00|INFO    |Network Health Score: 100/100
+6341f12ef17ad22a336922ddacde857cd5a00ffa7174487082b607f2a5220f71|2026-09-01 20:47:00|INFO    |Topology Gateway: 192.168.1.1 | Connected Nodes: 3 | Baseline Tracked: 5 devices
+acb42d0cc4a60f054019728e68d386c250f127923bb274b3a87fdc3acaf7f1c7|2026-09-01 20:47:00|INFO    |Sleeping 60s until next scan...
+44c468f71460cf7176692be9c2f1275b040c9cb29ece36cb0250cd84c6ce56a4|2026-09-01 20:48:00|INFO    |Scanning network 192.168.1.0/24 (local IP: 192.168.1.7)
+279f729774261823af2dd9e7a62b1d3daca8812b9329d43943879f2423afe257|2026-09-01 20:48:05|INFO    |Found 5 device(s) on the network
+c6b9dcbae226ee3d5fbd82c8401a9a37465ec899520ec213b623e7f30731ae90|2026-09-01 20:48:05|INFO    |No new devices or anomalies this cycle.
+40a6b94cb96ddff81a3a92bd39c9b73ac2ad7e2b3cb2ce5a724fa2a8ac59a235|2026-09-01 20:48:05|INFO    |Network Health Score: 100/100
+b5064c669c0746a3faaa17f9f5709d58cffed1bfbda3fbb500febbbb05f23e1d|2026-09-01 20:48:05|INFO    |Topology Gateway: 192.168.1.1 | Connected Nodes: 4 | Baseline Tracked: 5 devices
+29fe471ab275d10894494b063b99265e26502f6c32a1fec27b5287eba7bfdc9a|2026-09-01 20:48:05|INFO    |Sleeping 60s until next scan...
+41c63679d28ce9a8e7b9b3b5925fc8c92361a5ea6cccf9ceb33a0b55c976c791|2026-09-01 20:49:05|INFO    |Scanning network 192.168.1.0/24 (local IP: 192.168.1.7)
+96240d8f6a1611d67bd189a1743884654684874d6f25b5f5654d21b89c668804|2026-09-01 20:49:10|INFO    |Found 4 device(s) on the network
+6266152704134f039c6caa5f2026f0a23606eb080cac0161bc8464606dd4ba9a|2026-09-01 20:49:10|INFO    |No new devices or anomalies this cycle.
+e1079e42480a0fdf862d533d7d39f110e49d5a9edeb19a068f43c8f9fb405065|2026-09-01 20:49:10|INFO    |Network Health Score: 100/100
+929b39e0e0c620632d43fefe77d710a5d43e322ad4cb3e5135ad74e7f9ef56b4|2026-09-01 20:49:10|INFO    |Topology Gateway: 192.168.1.1 | Connected Nodes: 3 | Baseline Tracked: 5 devices
+9b898101f80db2818d9f493fb6326818234c52fbd6f33f8f643a070659357c21|2026-09-01 20:49:10|INFO    |Sleeping 60s until next scan...
+2da1ead7ac736dd0cc91d121a0f96b592435b0266905b7ee1e18aa30759d6954|2026-09-01 20:49:20|INFO    |Stopped by user (Ctrl+C). Exiting.
+0a299c279560e17fb9175a975cc64113bee7bd04ae0545d1471c9c5b26147251|2026-09-01 20:49:41|INFO    |Advanced Sentinel Core - V2 Starting up with Complete Engine Suite
+e6413e28fcefa5d07c1d231d28c47a364b8de5cbe87844c6cf186eb15e52f5ff|2026-09-01 20:49:41|INFO    |Scanning network 192.168.1.0/24 (local IP: 192.168.1.7)
+b03c1644e39f0993839bf0daab094c8bdd74e2edab937f5b9d91e16fdce39045|2026-09-01 20:49:45|INFO    |Found 4 device(s) on the network
+f981d9b85c3e0051641da14dda2cfe6039912f28eec2e9b57f58243a785a3984|2026-09-01 20:49:45|INFO    |No new devices or anomalies this cycle.
+678dacfec6e74fd676cc5a74d235712ed26ba8de960019403b227ec41996d684|2026-09-01 20:49:45|INFO    |Network Health Score: 100/100
+8b732c1506bc2dcada37768d32db3ae42a20c582c36dd044650da4194b5ce1f4|2026-09-01 20:49:45|INFO    |Topology Gateway: 192.168.1.1 | Connected Nodes: 3 | Baseline Tracked: 5 devices
+ff0fec39b03c83bbc9c82c13ef81c1b33a4467ad4c736bcc0890eff3762803a3|2026-09-01 20:49:45|INFO    |Executive Security Report generated & saved (Events logged: 0)
+466efc6c26242f3fa88479204800fb79081aa0dea9f4b3fad8030c3fcece97b4|2026-09-01 20:49:45|INFO    |Sleeping 60s until next scan...
+b83c9399defcf3d22e851f84d2514e33212344b011591a686fd4bc18023cfa1a|2026-09-01 20:50:45|INFO    |Scanning network 192.168.1.0/24 (local IP: 192.168.1.7)
+72df9062d38f29fc7d3ccc86adab0984d795e95bc57efa9a66224806949b4435|2026-09-01 20:50:50|INFO    |Found 5 device(s) on the network
+b3c79cb1027b21638f610de95c6ba31980e97292dea701d82a0ce0df85d1f404|2026-09-01 20:50:50|INFO    |No new devices or anomalies this cycle.
+192f68e74c468e4de1f33362e33dab1c45a6d04b9ea5c1fbc347c4c5e5c365bd|2026-09-01 20:50:50|INFO    |Network Health Score: 100/100
+1594c6e0919f03e48b120e952d5d058fd54f8a3803b95ed1792a90ce5d4da481|2026-09-01 20:50:50|INFO    |Topology Gateway: 192.168.1.1 | Connected Nodes: 4 | Baseline Tracked: 5 devices
+a0bbf18e80df71615e30edaa6f3c9deab5ca732780fa343926478e27471a4a9b|2026-09-01 20:50:50|INFO    |Executive Security Report generated & saved (Events logged: 0)
+37d7c7b09a6f1c56e19bfa1dc188574e722594b148a1269e93e2d5133e660487|2026-09-01 20:50:50|INFO    |Sleeping 60s until next scan...
+c95a7a562181a7c43a2b637a3b1404acd3d99c29d7b0de6a02310c1034ace225|2026-09-01 20:51:50|INFO    |Scanning network 192.168.1.0/24 (local IP: 192.168.1.7)
+6a5eb019e6f7aa8939050c372ab5b844d558e1fe7766aa538636b2726ce6f95c|2026-09-01 20:51:54|INFO    |Found 5 device(s) on the network
+3c74f945dfd2db489dd84555d0a4f0b747586a53696447ed29ca44e37bd9df04|2026-09-01 20:51:55|INFO    |No new devices or anomalies this cycle.
+511d8c95cb0159d9f91d00d19d1cb5473307df8ebcdb56fd4b3ba4c5d090cf9e|2026-09-01 20:51:55|INFO    |Network Health Score: 100/100
+77b3c78c371fe7ac62101876a2119ec847d1afb7d7e83ab296393a0cce6af6ff|2026-09-01 20:51:55|INFO    |Topology Gateway: 192.168.1.1 | Connected Nodes: 4 | Baseline Tracked: 5 devices
+ef0093fd9bfc23d7e0ac81489b069375fb0d50762adbe2ff5449032c1e074dc0|2026-09-01 20:51:55|INFO    |Executive Security Report generated & saved (Events logged: 0)
+9b704514378a1963f69ab556f2dbbba78e8d733da49dc6f4e4371e8d35e782ab|2026-09-01 20:51:55|INFO    |Sleeping 60s until next scan...
+e36531a1667634b7138020777b5c483dbb5475e0a468f4a9d6cf073abbbf8948|2026-09-01 20:52:55|INFO    |Scanning network 192.168.1.0/24 (local IP: 192.168.1.7)
+9ebea8d7069c29ab04ef342c8efab373657e92d104bc71b0d3dfba665ff32599|2026-09-01 20:53:00|INFO    |Found 4 device(s) on the network
+939a0d63712c5f179400c2eee99480879feb4d963396267dca5c8e70d8b505fd|2026-09-01 20:53:00|INFO    |No new devices or anomalies this cycle.
+67f77ac3f86b2189e95519bd1d0594ae0791ee25cbaaa0eced5cd95920717963|2026-09-01 20:53:00|INFO    |Network Health Score: 100/100
+2f5997966f97d7f313babfe1506800a17f738c1de144d0153c073614a01cdaad|2026-09-01 20:53:00|INFO    |Topology Gateway: 192.168.1.1 | Connected Nodes: 3 | Baseline Tracked: 5 devices
+f4dec924967cf202b86d867dcf8ad7c88ebc3b9be827add2bb3ffd81e5e40379|2026-09-01 20:53:00|INFO    |Executive Security Report generated & saved (Events logged: 0)
+7931d647d00ae7ec7b13f9b74d4d35feab850ebd40fadda7db8d45e588d07c76|2026-09-01 20:53:00|INFO    |Sleeping 60s until next scan...
+bb1ab307e0253e3ea390a6c7355f7d8b160ab21bc2f16c60971afa87c8623e49|2026-09-01 20:53:23|INFO    |Stopped by user (Ctrl+C). Exiting.
+3cf4a6b9d7ed05532f558832971af72b20d3711a2dda7b619c41b5506749d9f4|2026-09-01 20:53:46|INFO    |Advanced Sentinel Core - V2 Starting up with Active Defensive Engine
+ed9269fed0e284deed1838794d9e7db895dc780247609a94d549c5b258c9f3f9|2026-09-01 20:53:46|INFO    |Scanning network 192.168.1.0/24 (local IP: 192.168.1.7)
+ffb6608ba8b4d27be9db40b57af2c881fcf4848cd9d5262678707482fd723f8f|2026-09-01 20:53:50|INFO    |Found 4 device(s) on the network
+e1803e21cdfabce7ddd888821dee3093f697c79e13ef1e653893c80a9d73fdf2|2026-09-01 20:53:50|INFO    |No new devices or anomalies this cycle. Defensive posture secure.
+dbbc09649e037d681bef45860a3340251bf04df284782f7d1cfc90d246fab22d|2026-09-01 20:53:50|INFO    |Network Health Score: 100/100
+3d09732c0b4117051c69d32db52e0c1a78b88f2e0f3b48e5ad47c22c7e649f15|2026-09-01 20:53:50|INFO    |Topology Gateway: 192.168.1.1 | Connected Nodes: 3 | Baseline Tracked: 5 devices
+19a4b6289ad663b543904b7aa9e7a05015e5e19a3a4954383c034db0be757c22|2026-09-01 20:53:50|INFO    |Executive Security Report generated & saved (Events logged: 0)
+99e7e37cbd35629a050a5b35571d993f9622bdc91d85865a6bb243202f5dc348|2026-09-01 20:53:50|INFO    |Sleeping 60s until next scan...
+129e613f82b76250610f3ae8008485fbcea42e48e0d988e4f2fbe0ee0ee972fc|2026-09-01 20:54:51|INFO    |Scanning network 192.168.1.0/24 (local IP: 192.168.1.7)
+9d2ae3908c5d3afd52ce0ec6d180c5f08c8d20f3eb26d8f22996e09c55ca383a|2026-09-01 20:54:55|INFO    |Found 5 device(s) on the network
+f781263fd82308dc7d361eb219b8383f2eeabcd8dcc1f39b9ebb5706e77dda7c|2026-09-01 20:54:55|INFO    |No new devices or anomalies this cycle. Defensive posture secure.
+b1a11b16fe6228e02f6f5fae4c158871915ae6bd9e4c17c206c6ff63e29ecfb5|2026-09-01 20:54:55|INFO    |Network Health Score: 100/100
+6b3f0ae2a07de40132901434f6de3bb1d2e89edf20db0f543415e799086937a4|2026-09-01 20:54:55|INFO    |Topology Gateway: 192.168.1.1 | Connected Nodes: 4 | Baseline Tracked: 5 devices
+7218774dc1e1a11849db74b26cd356a16823c675062da5034aa4f826dd091b7e|2026-09-01 20:54:55|INFO    |Executive Security Report generated & saved (Events logged: 0)
+62699c58529be89480d5519679283abbe027700a0b9aafc301489c56c05888cc|2026-09-01 20:54:55|INFO    |Sleeping 60s until next scan...
+966f39d57cdce82155c626f7658e44a4f7b552b58b4e65342e674ad4dc118045|2026-09-01 20:55:55|INFO    |Scanning network 192.168.1.0/24 (local IP: 192.168.1.7)
+a1ea327d7a839bdd681887a650c1c4db3ad3193dbc78155b91d91775aec5fbf0|2026-09-01 20:56:00|INFO    |Found 5 device(s) on the network
+51ffec42c800c76888986f26d1b1b563f5dabe2f41a711b7256f570171a3b58f|2026-09-01 20:56:00|INFO    |No new devices or anomalies this cycle. Defensive posture secure.
+3ad7b0548af18c36edeff2131ba61c9cf446b7b2e1b838ab88a7f0b5fe9a7292|2026-09-01 20:56:00|INFO    |Network Health Score: 100/100
+2189106d8e41bdf3e7aa8f1adc918abc8ae15519ccffd0ae2309b3521c05fbf2|2026-09-01 20:56:00|INFO    |Topology Gateway: 192.168.1.1 | Connected Nodes: 4 | Baseline Tracked: 5 devices
+1bcd549dfbcbcbdc9574bbb91cfa5aeddfd51f0b7f9291edcbde3e52d3add02c|2026-09-01 20:56:00|INFO    |Executive Security Report generated & saved (Events logged: 0)
+29c0350ac8c1201a09d4796a52d61c2a0f94be86226e83ccfd3a5dbe7af6aff4|2026-09-01 20:56:00|INFO    |Sleeping 60s until next scan...
+60d2fea7221f93ecff5d96e3be3696a160175b3454f432d66c4c9a80b5d8ebd4|2026-09-01 20:56:12|INFO    |Stopped by user (Ctrl+C). Exiting.
+4cbbcfbe696f8837221747d43c653f8225db38d95e38d2c5d02fe0619fae44a6|2026-09-01 20:56:31|INFO    |Advanced Sentinel Core - V2 Starting up with Notification Dispatcher
+7dea98bbc16e7a4dc5a6e44e27247a31036e627eb2e1f53a0be68628b2f4c9bf|2026-09-01 20:56:31|INFO    |Scanning network 192.168.1.0/24 (local IP: 192.168.1.7)
+39e6ccbbb72921f14fc3b879c33f8bba30e5be349b591b7b0d019331e1dd64e6|2026-09-01 20:56:35|INFO    |Found 5 device(s) on the network
+45a7fddd155ff45c386b663d9cbb65a67130339728a18b1bd56a7b278ac5a653|2026-09-01 20:56:35|INFO    |No new devices or anomalies this cycle. Defensive posture secure.
+bfd12dc740d1c8e674dfd9724484cd521edaadf3acf8523fe4990e63df67e362|2026-09-01 20:56:35|INFO    |Network Health Score: 100/100
+69c8d4195a620ac11c5fd0811efda1c8442366e4bf7caa63a20670b0d1805289|2026-09-01 20:56:35|INFO    |Topology Gateway: 192.168.1.1 | Connected Nodes: 4 | Baseline Tracked: 5 devices | Alerts Sent: 0
+ea998e6d7af5e5f26434f4bb994becc4cf4a003f0b7068b3d174c22502c516ec|2026-09-01 20:56:35|INFO    |Executive Security Report generated & saved (Events logged: 0)
+2c55d77be656f494bd33cfc7c8e9909342d6bd1fb703df3d6eb664c24a94bc06|2026-09-01 20:56:35|INFO    |Sleeping 60s until next scan...
+410a4e1d3fdd5aefd7fd39c4a4f9e89a9c452cd92abe9c4d092eea365ace6801|2026-09-01 20:57:36|INFO    |Scanning network 192.168.1.0/24 (local IP: 192.168.1.7)
+ea6ee6d8fe51641daaff0daf99ce41fc4986a0abc256b7291a30bdfba2245c9c|2026-09-01 20:57:40|INFO    |Found 4 device(s) on the network
+f642a623c3b942f2152149b72fd2b950688ef36517ab09a00e67e26524bb59de|2026-09-01 20:57:40|INFO    |No new devices or anomalies this cycle. Defensive posture secure.
+0ad3297694fbf9cec58145e05b7a5ca02b713f0b4757691331931910228b5688|2026-09-01 20:57:40|INFO    |Network Health Score: 100/100
+08295e0e414921654ec2e016ee065e85da4068a63c0b4969ad4aa2495684f413|2026-09-01 20:57:40|INFO    |Topology Gateway: 192.168.1.1 | Connected Nodes: 3 | Baseline Tracked: 5 devices | Alerts Sent: 0
+94b39510e8b8ce5282b45fc4832a6c553647b6621ea65f33ac4aee8bbec72bd5|2026-09-01 20:57:41|INFO    |Executive Security Report generated & saved (Events logged: 0)
+b9afdeb545c1b02d447e0c8dc477a9544869ead8da6a982ac87826649fe45336|2026-09-01 20:57:41|INFO    |Sleeping 60s until next scan...
+793cfae090e1f5555c35b9aa4a27d66581ca0a95bab649c5e07e3bf52afa37e3|2026-09-01 20:58:41|INFO    |Scanning network 192.168.1.0/24 (local IP: 192.168.1.7)
+c7c79b8d9193c87f22936226e71b18b121d8d731ba1ec2e14629eb8032308edd|2026-09-01 20:58:45|INFO    |Found 5 device(s) on the network
+0da84119e246c16b2afcd5c3806f6c8f1059c193467ae47d04accdcbd51f1ac5|2026-09-01 20:58:45|INFO    |No new devices or anomalies this cycle. Defensive posture secure.
+a595be7c47d3c507de61c4dc72607c9a8862e0241d057434b2f606b2a0fa0a7e|2026-09-01 20:58:45|INFO    |Network Health Score: 100/100
+ddc7f86915d7a66aff72c15985480e62cddf3625994738bdd55bbf342aab85c0|2026-09-01 20:58:45|INFO    |Topology Gateway: 192.168.1.1 | Connected Nodes: 4 | Baseline Tracked: 5 devices | Alerts Sent: 0
+52e78fd23f9fc9278fe3349ecddef56ddedc3a35b5d2e94ed155b5ac39f25ce4|2026-09-01 20:58:45|INFO    |Executive Security Report generated & saved (Events logged: 0)
+0813fc4852bbd70ef4586c1b87cd53be6b6d178b951f260e4a66d7d3ef666b02|2026-09-01 20:58:46|INFO    |Sleeping 60s until next scan...
+ee0a32b24e8008a30424b51a55f45190b4c6b1d98ac50dddedca17c810a79dc2|2026-09-01 20:59:31|INFO    |Stopped by user (Ctrl+C). Exiting.
+44a2dd260d6562ef2d8c631b1c2af69525909330b942fecc4d32fe58f689db24|2026-09-01 21:00:08|INFO    |Advanced Sentinel Core - V2 Fully Loaded Master Engine
+f4da8b21ad907fecffbfcdcd31d4b5aad4ff3c6ab68b80745a9fef408f2e9297|2026-09-01 21:00:08|INFO    |Scanning network 192.168.1.0/24 (local IP: 192.168.1.7)
+f55d6e25e3e241541f38e668e2de7faa492a0cf03d6524e719b01835bb499279|2026-09-01 21:00:12|INFO    |Found 5 device(s) on the network
+397b2d9da67e9cf58076a2ab790f1b53c9b571abeb7f9a6a90197532260aa982|2026-09-01 21:00:12|INFO    |No new devices or anomalies this cycle. Defensive posture secure.
+9f3445cd90ecc37db52ac441c5dca12338cc91f622dd88bacfe849699ec8dc63|2026-09-01 21:00:12|INFO    |Network Health Score: 100/100
+352c594aba8a02b04aeb88b49765c1f9aa24141be5ac87291a2ba5198eb8d987|2026-09-01 21:00:13|INFO    |Topology Gateway: 192.168.1.1 | Connected Nodes: 4 | Baseline Tracked: 5 devices | Alerts Sent: 0
+119e9a643466bc875ba23bd22c99c298327a1a38b6c40cb9ccf97e0d97d444ab|2026-09-01 21:00:13|INFO    |Executive Security Report generated & saved (Events logged: 0)
+6ff2df712af410fead12e1f50b9b7b479ee08757381bc90c30424a454e9cf16b|2026-09-01 21:00:13|INFO    |Single scan execution completed. Exiting.

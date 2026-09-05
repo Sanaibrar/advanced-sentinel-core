@@ -1,0 +1,27 @@
+{
+  "timestamp": "2026-09-04T06:12:59.996977+00:00",
+  "network_health_score": 100,
+  "gateway": "192.168.1.1",
+  "total_connected_nodes": 6,
+  "detected_events_count": 2,
+  "events": [
+    {
+      "type": "known_device",
+      "ip": "192.168.1.1",
+      "mac": "24:00:fa:b4:d2:b0",
+      "risk_level": "LOW",
+      "timestamp": "2026-09-04T11:12:59.981608",
+      "message": "Known device 24:00:fa:b4:d2:b0 active at 192.168.1.1",
+      "defensive_action": "PASS: Routine telemetry."
+    },
+    {
+      "type": "known_device",
+      "ip": "192.168.1.7",
+      "mac": "74:40:bb:80:17:9d",
+      "risk_level": "LOW",
+      "timestamp": "2026-09-04T11:12:59.981649",
+      "message": "Known device 74:40:bb:80:17:9d active at 192.168.1.7",
+      "defensive_action": "PASS: Routine telemetry."
+    }
+  ]
+}

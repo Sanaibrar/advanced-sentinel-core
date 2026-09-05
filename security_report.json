@@ -1,0 +1,8 @@
+{
+  "timestamp": "2026-09-01T16:00:13.068273+00:00",
+  "network_health_score": 100,
+  "gateway": "192.168.1.1",
+  "total_connected_nodes": 4,
+  "detected_events_count": 0,
+  "events": []
+}
