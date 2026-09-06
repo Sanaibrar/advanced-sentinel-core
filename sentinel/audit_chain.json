@@ -19,5 +19,12 @@
     "timestamp": "11:12:59",
     "prev_hash": "d1d5acf8...",
     "hash": "1b40afae..."
+  },
+  {
+    "id": 4,
+    "action": "ARP Inventory Scanned - 2 Node(s) Active",
+    "timestamp": "08:02:39",
+    "prev_hash": "1b40afae...",
+    "hash": "8efb2f4f..."
   }
 ]
