@@ -1,68 +1,23 @@
-/* ===== RESET & BASE ===== */
-*, *::before, *::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+/* ===== APP WRAPPER ===== */
+.app-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
 }
 
-:root {
-  --bg-primary: #0d1117;
-  --bg-secondary: #161b22;
-  --bg-tertiary: #21262d;
-  --border: #30363d;
-  --text-primary: #f0f6fc;
-  --text-secondary: #8b949e;
-  --text-muted: #6e7681;
-  --accent-blue: #58a6ff;
-  --accent-green: #3fb950;
-  --accent-red: #f85149;
-  --accent-yellow: #d29922;
-  --accent-purple: #a371f7;
-  --font-mono: 'Courier New', monospace;
-}
-
-body {
-  background-color: var(--bg-primary);
-  color: var(--text-primary);
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 
-               'Roboto', sans-serif;
-  font-size: 14px;
-  line-height: 1.6;
-  min-height: 100vh;
-}
-
-/* ===== SCROLLBAR ===== */
-::-webkit-scrollbar { width: 6px; height: 6px; }
-::-webkit-scrollbar-track { background: var(--bg-primary); }
-::-webkit-scrollbar-thumb { 
-  background: var(--bg-tertiary); 
-  border-radius: 3px; 
-}
-::-webkit-scrollbar-thumb:hover { background: #444d56; }
-
-/* ===== DASHBOARD LAYOUT ===== */
-.dashboard-container {
-  max-width: 1400px;
-  margin: 0 auto;
-  padding: 24px;
-  min-height: 100vh;
-}
-
-/* ===== HEADER ===== */
+/* ===== FIXED HEADER ===== */
 .dashboard-header {
+  flex-shrink: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 28px;
-  background: linear-gradient(135deg, #161b22 0%, #0d1117 100%);
-  border: 1px solid var(--border);
-  border-radius: 12px;
-  margin-bottom: 24px;
-  position: sticky;
-  top: 16px;
+  padding: 18px 28px;
+  background: var(--bg);
+  border-bottom: 1px solid var(--border);
   z-index: 100;
-  backdrop-filter: blur(10px);
-  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(12px);
 }
 
 .logo-area {
@@ -74,18 +29,19 @@ body {
 .logo-area h1 {
   font-size: 20px;
   font-weight: 700;
-  color: var(--text-primary);
+  color: var(--text-h);
   letter-spacing: 1px;
   text-transform: uppercase;
+  margin: 0;
 }
 
 .shield-icon {
-  color: var(--accent-blue);
-  filter: drop-shadow(0 0 8px rgba(88, 166, 255, 0.5));
+  color: var(--accent);
+  filter: drop-shadow(0 0 8px var(--accent-border));
 }
 
 .badge {
-  background: linear-gradient(135deg, var(--accent-blue), var(--accent-purple));
+  background: linear-gradient(135deg, var(--accent), var(--accent-border));
   color: white;
   font-size: 11px;
   padding: 3px 10px;
@@ -101,8 +57,8 @@ body {
   display: flex;
   align-items: center;
   gap: 6px;
-  background: var(--bg-tertiary);
-  color: var(--accent-blue);
+  background: var(--code-bg);
+  color: var(--accent);
   border: 1px solid var(--border);
   padding: 8px 16px;
   border-radius: 8px;
@@ -113,14 +69,23 @@ body {
 }
 
 .refresh-btn:hover {
-  background: rgba(88, 166, 255, 0.1);
-  border-color: var(--accent-blue);
-  box-shadow: 0 0 12px rgba(88, 166, 255, 0.2);
+  background: var(--accent-bg);
+  border-color: var(--accent);
 }
 
 .refresh-btn:disabled {
   opacity: 0.5;
   cursor: not-allowed;
+}
+
+/* ===== SCROLLABLE CONTAINER (Saare panels yahan scroll honge) ===== */
+.dashboard-container {
+  flex-grow: 1;
+  overflow-y: auto;
+  width: 100%;
+  padding: 24px;
+  box-sizing: border-box;
+  text-align: left;
 }
 
 /* ===== ERROR BANNER ===== */
@@ -130,12 +95,11 @@ body {
   gap: 10px;
   background: rgba(248, 81, 73, 0.1);
   border: 1px solid rgba(248, 81, 73, 0.3);
-  color: var(--accent-red);
+  color: #f85149;
   padding: 12px 18px;
   border-radius: 8px;
   margin-bottom: 20px;
   font-size: 13px;
-  animation: slideIn 0.3s ease;
 }
 
 /* ===== METRICS GRID ===== */
@@ -147,7 +111,7 @@ body {
 }
 
 .metric-card {
-  background: var(--bg-secondary);
+  background: var(--code-bg);
   border: 1px solid var(--border);
   border-radius: 10px;
   padding: 20px;
@@ -155,35 +119,16 @@ body {
   justify-content: space-between;
   align-items: center;
   transition: all 0.2s ease;
-  position: relative;
-  overflow: hidden;
-}
-
-.metric-card::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 2px;
-  background: linear-gradient(90deg, var(--accent-blue), var(--accent-purple));
-  opacity: 0;
-  transition: opacity 0.2s;
 }
 
 .metric-card:hover {
-  border-color: #444d56;
-  transform: translateY(-2px);
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
-}
-
-.metric-card:hover::before {
-  opacity: 1;
+  border-color: var(--accent);
+  box-shadow: var(--shadow);
 }
 
 .metric-info h3 {
   font-size: 11px;
-  color: var(--text-muted);
+  color: var(--text);
   text-transform: uppercase;
   letter-spacing: 0.8px;
   font-weight: 600;
@@ -193,35 +138,36 @@ body {
 .metric-value {
   font-size: 28px;
   font-weight: 700;
-  color: var(--text-primary);
+  color: var(--text-h);
   line-height: 1;
 }
 
 .metric-value.sub {
   font-size: 16px;
-  font-family: var(--font-mono);
-  color: var(--accent-blue);
+  font-family: var(--mono);
+  color: var(--accent);
 }
 
 .card-icon {
   opacity: 0.8;
 }
 
-.card-icon.green { color: var(--accent-green); }
-.card-icon.blue { color: var(--accent-blue); }
-.card-icon.purple { color: var(--accent-purple); }
-.card-icon.orange { color: var(--accent-yellow); }
+.card-icon.green { color: #3fb950; }
+.card-icon.blue { color: var(--accent); }
+.card-icon.purple { color: #a371f7; }
+.card-icon.orange { color: #d29922; }
 
-/* ===== CONTENT GRID ===== */
+/* ===== CONTENT GRID (Saare panels ki list) ===== */
 .content-grid {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  padding-bottom: 40px; /* Neeche thori extra space taake aakhri panel cut na ho */
 }
 
 /* ===== PANEL (generic) ===== */
 .panel {
-  background: var(--bg-secondary);
+  background: var(--code-bg);
   border: 1px solid var(--border);
   border-radius: 10px;
   padding: 20px;
@@ -229,7 +175,7 @@ body {
 }
 
 .panel:hover {
-  border-color: #444d56;
+  border-color: var(--accent);
 }
 
 /* ===== TABLE ===== */
@@ -245,38 +191,39 @@ table {
 
 th {
   padding: 10px 12px;
-  color: var(--text-muted);
+  color: var(--text);
   font-size: 11px;
   text-transform: uppercase;
   letter-spacing: 0.5px;
   font-weight: 600;
   text-align: left;
   border-bottom: 1px solid var(--border);
-  background: rgba(0,0,0,0.2);
+  background: var(--social-bg);
 }
 
 td {
   padding: 12px;
-  border-bottom: 1px solid #21262d;
+  border-bottom: 1px solid var(--border);
   font-size: 13px;
+  color: var(--text-h);
 }
 
 tr:last-child td { border-bottom: none; }
 
 tr:hover td {
-  background: rgba(255, 255, 255, 0.02);
+  background: var(--accent-bg);
 }
 
 /* ===== SECURE STATE ===== */
 .secure-state {
   text-align: center;
   padding: 32px;
-  color: var(--accent-green);
+  color: #3fb950;
   opacity: 0.8;
 }
 
 .secure-state p {
-  color: var(--text-secondary);
+  color: var(--text);
   font-size: 13px;
   margin-top: 10px;
 }
@@ -288,8 +235,8 @@ tr:hover td {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: var(--bg-primary);
-  color: var(--accent-blue);
+  background: var(--bg);
+  color: var(--accent);
   font-size: 16px;
   gap: 16px;
   font-weight: 500;
@@ -301,40 +248,16 @@ tr:hover td {
   to { transform: rotate(360deg); }
 }
 
-@keyframes pulse {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0.4; }
-}
-
-@keyframes slideIn {
-  from { 
-    opacity: 0; 
-    transform: translateY(-10px); 
-  }
-  to { 
-    opacity: 1; 
-    transform: translateY(0); 
-  }
-}
-
-@keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
-}
-
 .spin {
   animation: spin 1s linear infinite;
 }
 
 /* ===== RESPONSIVE ===== */
 @media (max-width: 768px) {
-  .dashboard-container { padding: 12px; }
   .dashboard-header { 
-    flex-direction: column; 
-    gap: 12px;
-    position: static;
+    padding: 12px 16px;
   }
-  .logo-area h1 { font-size: 15px; }
+  .logo-area h1 { font-size: 14px; }
   .metric-value { font-size: 22px; }
   .metrics-grid { grid-template-columns: repeat(2, 1fr); }
 }

@@ -44,14 +44,12 @@
     --shadow:
       rgba(0, 0, 0, 0.4) 0 10px 15px -3px, rgba(0, 0, 0, 0.25) 0 4px 6px -2px;
   }
-
-  #social .button-icon {
-    filter: invert(1) brightness(2);
-  }
 }
 
 body {
   margin: 0;
+  background-color: var(--bg);
+  overflow: hidden; /* Body ko bhi lock kar diya hai */
 }
 
 #root {
@@ -60,10 +58,12 @@ body {
   margin: 0 auto;
   text-align: center;
   border-inline: 1px solid var(--border);
-  min-height: 100svh;
+  height: 100vh;
+  overflow: hidden; /* Yeh poori screen ko lock karega aur sirf container ko scroll hone dega */
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
+  position: relative;
 }
 
 h1,
@@ -82,6 +82,7 @@ h1 {
     margin: 20px 0;
   }
 }
+
 h2 {
   font-size: 24px;
   line-height: 118%;
@@ -91,6 +92,7 @@ h2 {
     font-size: 20px;
   }
 }
+
 p {
   margin: 0;
 }

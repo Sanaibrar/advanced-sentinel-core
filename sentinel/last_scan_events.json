@@ -4,17 +4,39 @@
     "ip": "192.168.1.1",
     "mac": "24:00:fa:b4:d2:b0",
     "risk_level": "LOW",
-    "timestamp": "2026-09-06T08:02:39.529301",
+    "timestamp": "2026-09-18T15:31:04.844256",
     "message": "Known device 24:00:fa:b4:d2:b0 active at 192.168.1.1",
     "defensive_action": "PASS: Routine telemetry."
   },
   {
-    "type": "known_device",
+    "type": "ip_change",
     "ip": "192.168.1.7",
+    "old_ip": "192.168.1.2",
+    "old_mac": "74:40:bb:80:17:9d",
     "mac": "74:40:bb:80:17:9d",
-    "risk_level": "LOW",
-    "timestamp": "2026-09-06T08:02:39.529367",
-    "message": "Known device 74:40:bb:80:17:9d active at 192.168.1.7",
-    "defensive_action": "PASS: Routine telemetry."
+    "risk_level": "MEDIUM",
+    "timestamp": "2026-09-18T15:31:04.845168",
+    "message": "Device 74:40:bb:80:17:9d changed IP from 192.168.1.2 to 192.168.1.7",
+    "defensive_action": "MONITOR_STRICTLY: Log increased watch on IP 192.168.1.7."
+  },
+  {
+    "type": "ip_change",
+    "ip": "192.168.1.3",
+    "old_ip": "192.168.1.10",
+    "old_mac": "ec:56:23:65:e5:74",
+    "mac": "ec:56:23:65:e5:74",
+    "risk_level": "MEDIUM",
+    "timestamp": "2026-09-18T15:31:04.845289",
+    "message": "Device ec:56:23:65:e5:74 changed IP from 192.168.1.10 to 192.168.1.3",
+    "defensive_action": "MONITOR_STRICTLY: Log increased watch on IP 192.168.1.3."
+  },
+  {
+    "type": "new_device",
+    "ip": "192.168.1.4",
+    "mac": "d6:34:82:65:8b:13",
+    "risk_level": "HIGH",
+    "timestamp": "2026-09-18T15:31:04.845309",
+    "message": "New device detected: d6:34:82:65:8b:13 at 192.168.1.4",
+    "defensive_action": "QUARANTINE_RECOMMENDED: Isolate MAC d6:34:82:65:8b:13 immediately."
   }
 ]

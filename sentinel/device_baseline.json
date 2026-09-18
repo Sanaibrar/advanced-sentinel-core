@@ -1,0 +1,48 @@
+{
+  "24:00:fa:b4:d2:b0": {
+    "first_seen": "2026-09-16T17:02:36.424201",
+    "typical_hours": [
+      17,
+      19,
+      15
+    ],
+    "status": "Baseline Updating",
+    "anomaly_score": 0
+  },
+  "74:40:bb:80:17:9d": {
+    "first_seen": "2026-09-16T17:02:36.424201",
+    "typical_hours": [
+      17,
+      19,
+      15
+    ],
+    "status": "Baseline Updating",
+    "anomaly_score": 0
+  },
+  "46:bf:14:f8:32:fd": {
+    "first_seen": "2026-09-16T17:07:11.464154",
+    "typical_hours": [
+      17,
+      19
+    ],
+    "status": "Baseline Updating",
+    "anomaly_score": 0
+  },
+  "ec:56:23:65:e5:74": {
+    "first_seen": "2026-09-16T19:33:41.451628",
+    "typical_hours": [
+      19,
+      15
+    ],
+    "status": "Baseline Updating",
+    "anomaly_score": 0
+  },
+  "d6:34:82:65:8b:13": {
+    "first_seen": "2026-09-18T15:31:04.900715",
+    "typical_hours": [
+      15
+    ],
+    "status": "Trusted (Learning)",
+    "anomaly_score": 0
+  }
+}

@@ -20,6 +20,7 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 KNOWN_DEVICES_FILE = os.path.join(BASE_DIR, "known_devices.json")
 LAST_SCAN_FILE = os.path.join(BASE_DIR, "last_scan_events.json")
 SECURITY_REPORT_FILE = os.path.join(BASE_DIR, "security_report.json")
+BASELINE_FILE = os.path.join(BASE_DIR, "device_baseline.json")
 
 
 # ---------- Helper: persistence ----------
@@ -53,6 +54,65 @@ def load_security_report():
         with open(SECURITY_REPORT_FILE, "r") as f:
             return json.load(f)
     return None
+
+
+def load_baseline():
+    if os.path.exists(BASELINE_FILE):
+        with open(BASELINE_FILE, "r") as f:
+            return json.load(f)
+    return {}
+
+
+def save_baseline(data):
+    with open(BASELINE_FILE, "w") as f:
+        json.dump(data, f, indent=2)
+
+
+# ---------- Behavioral Baseline Analysis Engine ----------
+
+def analyze_behavior(discovered_devices):
+    baseline = load_baseline()
+    current_hour = datetime.datetime.now().hour
+    current_time = datetime.datetime.now().isoformat()
+    updated_events = []
+
+    for device in discovered_devices:
+        mac = device["mac"]
+        ip = device["ip"]
+
+        if mac not in baseline:
+            baseline[mac] = {
+                "first_seen": current_time,
+                "typical_hours": [current_hour],
+                "status": "Trusted (Learning)",
+                "anomaly_score": 0
+            }
+        else:
+            dev_info = baseline[mac]
+            hours = dev_info.get("typical_hours", [])
+            
+            if current_hour not in hours:
+                if len(hours) < 5:
+                    hours.append(current_hour)
+                    dev_info["status"] = "Baseline Updating"
+                else:
+                    dev_info["anomaly_score"] = dev_info.get("anomaly_score", 0) + 1
+                    dev_info["status"] = "Behavioral Anomaly (Unusual Hour)"
+                    updated_events.append({
+                        "type": "behavioral_anomaly",
+                        "ip": ip,
+                        "mac": mac,
+                        "risk_level": "MEDIUM",
+                        "timestamp": current_time,
+                        "message": f"Device {mac} active outside typical hours at {ip}"
+                    })
+            else:
+                dev_info["status"] = "Normal (Baseline Matched)"
+
+            dev_info["typical_hours"] = hours
+
+    save_baseline(baseline)
+    return updated_events
 
 
 # ---------- Core: real scan + risk + reporting ----------
@@ -103,7 +163,11 @@ def run_real_scan():
         known[mac] = ip
 
     save_known_devices(known)
+    
     enforced_events = enforce_defensive_rules(events)
+    behavioral_events = analyze_behavior(discovered)
+    enforced_events.extend(behavioral_events)
+    
     save_last_scan_events(enforced_events)
 
     alert_count = dispatch_alerts(enforced_events)
@@ -112,11 +176,9 @@ def run_real_scan():
     medium_risk_count = len([e for e in enforced_events if e["risk_level"] == "MEDIUM"])
     health_score = max(30, 100 - (high_risk_count * 15) - (medium_risk_count * 5))
 
-    # --- Log scan event to hash-chain ---
     node_count = len(discovered)
     append_event(f"ARP Inventory Scanned - {node_count} Node(s) Active")
 
-    # --- Log HIGH risk events to hash-chain ---
     for e in enforced_events:
         if e["risk_level"] == "HIGH":
             append_event(f"HIGH RISK Detected: {e['message']}")
@@ -204,6 +266,16 @@ def get_behavior_alerts():
     return jsonify({"alerts": alerts}), 200
 
 
+@app.route('/api/baseline-status', methods=['GET'])
+def get_baseline_status():
+    baseline_data = load_baseline()
+    return jsonify({
+        "status": "success",
+        "total_baselined_devices": len(baseline_data),
+        "devices": baseline_data
+    }), 200
+
+
 @app.route('/api/inventory', methods=['GET'])
 def get_inventory():
     known = load_known_devices()
@@ -265,7 +337,6 @@ def get_timeline_ai():
 
 @app.route('/api/audit-logs', methods=['GET'])
 def get_audit_logs():
-    """Return real tamper-evident hash-chain."""
     return jsonify(get_chain_with_status()), 200
 
 

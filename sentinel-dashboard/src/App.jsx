@@ -38,7 +38,8 @@ export default function App() {
   if (loading) return <div className="loading-screen"><RefreshCw className="spin" /> Loading Sentinel Core Pro...</div>;
 
   return (
-    <div className="dashboard-container">
+    <div className="app-wrapper">
+      {/* Header ko container se bahar nikal diya taake yeh bilkul fix rahe */}
       <header className="dashboard-header">
         <div className="logo-area">
           <ShieldAlert className="shield-icon" />
@@ -49,66 +50,53 @@ export default function App() {
         </button>
       </header>
 
-      {error && <div className="error-banner"><AlertTriangle /> Backend Connection Error: {error}. Make sure `app.py` is running!</div>}
+      <div className="dashboard-container">
+        {error && <div className="error-banner"><AlertTriangle /> Backend Connection Error: {error}. Make sure `app.py` is running!</div>}
 
-      <div className="metrics-grid">
-        <div className="metric-card">
-          <div className="metric-info">
-            <h3>Network Health Score</h3>
-            <p className="metric-value">{data?.network_health_score ?? 75}%</p>
+        <div className="metrics-grid">
+          <div className="metric-card">
+            <div className="metric-info">
+              <h3>Network Health Score</h3>
+              <p className="metric-value">{data?.network_health_score ?? 75}%</p>
+            </div>
+            <Activity className="card-icon green" />
           </div>
-          <Activity className="card-icon green" />
+
+          <div className="metric-card">
+            <div className="metric-info">
+              <h3>Gateway Node</h3>
+              <p className="metric-value sub">{data?.gateway || "192.168.1.1"}</p>
+            </div>
+            <Server className="card-icon blue" />
+          </div>
+
+          <div className="metric-card">
+            <div className="metric-info">
+              <h3>Connected Nodes</h3>
+              <p className="metric-value">{data?.total_connected_nodes ?? 3}</p>
+            </div>
+            <Radio className="card-icon purple" />
+          </div>
+
+          <div className="metric-card">
+            <div className="metric-info">
+              <h3>Detected Events</h3>
+              <p className="metric_value" style={{fontSize: '28px', fontWeight: '700', color: 'var(--text-primary)'}}>{data?.detected_events_count ?? 3}</p>
+            </div>
+            <ShieldAlert className="card-icon orange" />
+          </div>
         </div>
 
-        <div className="metric-card">
-          <div className="metric-info">
-            <h3>Gateway Node</h3>
-            <p className="metric-value sub">{data?.gateway || "192.168.1.1"}</p>
-          </div>
-          <Server className="card-icon blue" />
+        <div className="content-grid">
+          <BehavioralPanel />
+          <InventoryPage />
+          <ProtocolAnalyzer />
+          <TopologyMap />
+          <LabModePanel />
+          <AttackSimulator />
+          <TimelineAI />
+          <EvidenceLogger />
         </div>
-
-        <div className="metric-card">
-          <div className="metric-info">
-            <h3>Connected Nodes</h3>
-            <p className="metric-value">{data?.total_connected_nodes ?? 3}</p>
-          </div>
-          <Radio className="card-icon purple" />
-        </div>
-
-        <div className="metric-card">
-          <div className="metric-info">
-            <h3>Detected Events</h3>
-            <p className="metric-value">{data?.detected_events_count ?? 3}</p>
-          </div>
-          <ShieldAlert className="card-icon orange" />
-        </div>
-      </div>
-
-      <div className="content-grid">
-        {/* Behavioral Detection Panel */}
-        <BehavioralPanel />
-
-        {/* Network Inventory Component */}
-        <InventoryPage />
-
-        {/* Deep Protocol Analysis Component */}
-        <ProtocolAnalyzer />
-
-        {/* Device Relationship & Topology Map Component */}
-        <TopologyMap />
-
-        {/* Lab Mode & Honeypot Telemetry Component */}
-        <LabModePanel />
-
-        {/* Live Attack Simulator Component */}
-        <AttackSimulator />
-
-        {/* Attack Timeline & Explainable AI Layer */}
-        <TimelineAI />
-
-        {/* Tamper-Evident Evidence Hash-Chain Logger */}
-        <EvidenceLogger />
       </div>
     </div>
   );

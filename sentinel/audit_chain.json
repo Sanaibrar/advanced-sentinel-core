@@ -26,5 +26,243 @@
     "timestamp": "08:02:39",
     "prev_hash": "1b40afae...",
     "hash": "8efb2f4f..."
+  },
+  {
+    "id": 5,
+    "action": "ARP Inventory Scanned - 15 Node(s) Active",
+    "timestamp": "11:03:57",
+    "prev_hash": "8efb2f4f...",
+    "hash": "b0ff4676..."
+  },
+  {
+    "id": 6,
+    "action": "HIGH RISK Detected: New device detected: 14:ca:56:9b:40:2f at 192.168.1.1",
+    "timestamp": "11:03:57",
+    "prev_hash": "b0ff4676...",
+    "hash": "981aa3ca..."
+  },
+  {
+    "id": 7,
+    "action": "HIGH RISK Detected: New device detected: 96:97:1a:be:86:71 at 192.168.1.21",
+    "timestamp": "11:03:58",
+    "prev_hash": "981aa3ca...",
+    "hash": "808cf8e7..."
+  },
+  {
+    "id": 8,
+    "action": "HIGH RISK Detected: New device detected: 4a:ce:4b:12:5e:ea at 192.168.1.32",
+    "timestamp": "11:03:58",
+    "prev_hash": "808cf8e7...",
+    "hash": "b442e40d..."
+  },
+  {
+    "id": 9,
+    "action": "HIGH RISK Detected: New device detected: 6a:bd:9c:9f:77:be at 192.168.1.168",
+    "timestamp": "11:03:58",
+    "prev_hash": "b442e40d...",
+    "hash": "2d901f29..."
+  },
+  {
+    "id": 10,
+    "action": "HIGH RISK Detected: New device detected: 26:b2:cf:99:ee:31 at 192.168.1.165",
+    "timestamp": "11:03:58",
+    "prev_hash": "2d901f29...",
+    "hash": "abdd22e0..."
+  },
+  {
+    "id": 11,
+    "action": "HIGH RISK Detected: New device detected: de:f9:9d:61:c2:f7 at 192.168.1.214",
+    "timestamp": "11:03:58",
+    "prev_hash": "abdd22e0...",
+    "hash": "e4bdc47e..."
+  },
+  {
+    "id": 12,
+    "action": "HIGH RISK Detected: New device detected: 7c:76:35:6e:82:c8 at 192.168.1.210",
+    "timestamp": "11:03:58",
+    "prev_hash": "e4bdc47e...",
+    "hash": "2e2f6d8c..."
+  },
+  {
+    "id": 13,
+    "action": "HIGH RISK Detected: New device detected: 22:2a:81:32:9a:84 at 192.168.1.227",
+    "timestamp": "11:03:58",
+    "prev_hash": "2e2f6d8c...",
+    "hash": "2d19beb7..."
+  },
+  {
+    "id": 14,
+    "action": "HIGH RISK Detected: New device detected: a2:1b:5a:e8:2e:41 at 192.168.1.224",
+    "timestamp": "11:03:58",
+    "prev_hash": "2d19beb7...",
+    "hash": "6aa5fb01..."
+  },
+  {
+    "id": 15,
+    "action": "HIGH RISK Detected: New device detected: 1c:4d:70:a8:63:ee at 192.168.1.230",
+    "timestamp": "11:03:58",
+    "prev_hash": "6aa5fb01...",
+    "hash": "b1d9183f..."
+  },
+  {
+    "id": 16,
+    "action": "HIGH RISK Detected: New device detected: 1c:4d:70:70:32:58 at 192.168.1.226",
+    "timestamp": "11:03:58",
+    "prev_hash": "b1d9183f...",
+    "hash": "fa900945..."
+  },
+  {
+    "id": 17,
+    "action": "HIGH RISK Detected: New device detected: 2c:6d:c1:d2:56:cc at 192.168.1.234",
+    "timestamp": "11:03:58",
+    "prev_hash": "fa900945...",
+    "hash": "701ac245..."
+  },
+  {
+    "id": 18,
+    "action": "HIGH RISK Detected: New device detected: 8e:67:1b:96:89:29 at 192.168.1.235",
+    "timestamp": "11:03:58",
+    "prev_hash": "701ac245...",
+    "hash": "66542c12..."
+  },
+  {
+    "id": 19,
+    "action": "HIGH RISK Detected: New device detected: 8a:c8:b9:06:ec:a8 at 192.168.1.237",
+    "timestamp": "11:03:58",
+    "prev_hash": "66542c12...",
+    "hash": "586d4456..."
+  },
+  {
+    "id": 20,
+    "action": "HIGH RISK Detected: New device detected: 02:7c:d4:a2:9d:e6 at 192.168.1.247",
+    "timestamp": "11:03:58",
+    "prev_hash": "586d4456...",
+    "hash": "6d95e8df..."
+  },
+  {
+    "id": 21,
+    "action": "ARP Inventory Scanned - 1 Node(s) Active",
+    "timestamp": "09:51:49",
+    "prev_hash": "6d95e8df...",
+    "hash": "17db307b..."
+  },
+  {
+    "id": 22,
+    "action": "MEDIUM RISK Detected: Device 74:40:bb:80:17:9d changed IP from 192.168.1.7 to 192.168.1.3",
+    "timestamp": "09:51:49",
+    "prev_hash": "17db307b...",
+    "hash": "8b0ac566..."
+  },
+  {
+    "id": 23,
+    "action": "ARP Inventory Scanned - 3 Node(s) Active",
+    "timestamp": "11:14:49",
+    "prev_hash": "8b0ac566...",
+    "hash": "14abf3d6..."
+  },
+  {
+    "id": 24,
+    "action": "MEDIUM RISK Detected: Device 74:40:bb:80:17:9d changed IP from 192.168.1.3 to 192.168.1.5",
+    "timestamp": "11:14:49",
+    "prev_hash": "14abf3d6...",
+    "hash": "9bb6376e..."
+  },
+  {
+    "id": 25,
+    "action": "HIGH RISK Detected: New device detected: 20:64:cb:e1:de:73 at 192.168.1.6",
+    "timestamp": "11:14:49",
+    "prev_hash": "9bb6376e...",
+    "hash": "34880fd3..."
+  },
+  {
+    "id": 26,
+    "action": "ARP Inventory Scanned - 4 Node(s) Active",
+    "timestamp": "11:32:09",
+    "prev_hash": "34880fd3...",
+    "hash": "10df2939..."
+  },
+  {
+    "id": 27,
+    "action": "HIGH RISK Detected: New device detected: ce:52:73:86:6e:cc at 192.168.1.7",
+    "timestamp": "11:32:09",
+    "prev_hash": "10df2939...",
+    "hash": "5ce37a01..."
+  },
+  {
+    "id": 28,
+    "action": "ARP Inventory Scanned - 2 Node(s) Active",
+    "timestamp": "17:02:36",
+    "prev_hash": "5ce37a01...",
+    "hash": "96dc0fdc..."
+  },
+  {
+    "id": 29,
+    "action": "MEDIUM RISK Detected: Device 74:40:bb:80:17:9d changed IP from 192.168.1.5 to 192.168.1.2",
+    "timestamp": "17:02:36",
+    "prev_hash": "96dc0fdc...",
+    "hash": "001fed9f..."
+  },
+  {
+    "id": 30,
+    "action": "ARP Inventory Scanned - 3 Node(s) Active",
+    "timestamp": "17:07:11",
+    "prev_hash": "001fed9f...",
+    "hash": "b28a6150..."
+  },
+  {
+    "id": 31,
+    "action": "MEDIUM RISK Detected: Device 46:bf:14:f8:32:fd changed IP from 192.168.1.2 to 192.168.1.3",
+    "timestamp": "17:07:11",
+    "prev_hash": "b28a6150...",
+    "hash": "ed209a80..."
+  },
+  {
+    "id": 32,
+    "action": "ARP Inventory Scanned - 3 Node(s) Active",
+    "timestamp": "17:35:19",
+    "prev_hash": "ed209a80...",
+    "hash": "f0eedccf..."
+  },
+  {
+    "id": 33,
+    "action": "ARP Inventory Scanned - 4 Node(s) Active",
+    "timestamp": "19:33:41",
+    "prev_hash": "f0eedccf...",
+    "hash": "f77a069b..."
+  },
+  {
+    "id": 34,
+    "action": "MEDIUM RISK Detected: Device ec:56:23:65:e5:74 changed IP from 192.168.1.4 to 192.168.1.10",
+    "timestamp": "19:33:41",
+    "prev_hash": "f77a069b...",
+    "hash": "e3f04288..."
+  },
+  {
+    "id": 35,
+    "action": "ARP Inventory Scanned - 4 Node(s) Active",
+    "timestamp": "15:31:04",
+    "prev_hash": "e3f04288...",
+    "hash": "0f544793..."
+  },
+  {
+    "id": 36,
+    "action": "MEDIUM RISK Detected: Device 74:40:bb:80:17:9d changed IP from 192.168.1.2 to 192.168.1.7",
+    "timestamp": "15:31:04",
+    "prev_hash": "0f544793...",
+    "hash": "f15ae405..."
+  },
+  {
+    "id": 37,
+    "action": "MEDIUM RISK Detected: Device ec:56:23:65:e5:74 changed IP from 192.168.1.10 to 192.168.1.3",
+    "timestamp": "15:31:04",
+    "prev_hash": "f15ae405...",
+    "hash": "4738ff2f..."
+  },
+  {
+    "id": 38,
+    "action": "HIGH RISK Detected: New device detected: d6:34:82:65:8b:13 at 192.168.1.4",
+    "timestamp": "15:31:05",
+    "prev_hash": "4738ff2f...",
+    "hash": "d7a171e9..."
   }
 ]
