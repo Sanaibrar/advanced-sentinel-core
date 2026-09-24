@@ -4,7 +4,8 @@
     "typical_hours": [
       17,
       19,
-      15
+      15,
+      20
     ],
     "status": "Baseline Updating",
     "anomaly_score": 0
@@ -14,7 +15,8 @@
     "typical_hours": [
       17,
       19,
-      15
+      15,
+      20
     ],
     "status": "Baseline Updating",
     "anomaly_score": 0
@@ -23,7 +25,8 @@
     "first_seen": "2026-09-16T17:07:11.464154",
     "typical_hours": [
       17,
-      19
+      19,
+      20
     ],
     "status": "Baseline Updating",
     "anomaly_score": 0
@@ -32,7 +35,8 @@
     "first_seen": "2026-09-16T19:33:41.451628",
     "typical_hours": [
       19,
-      15
+      15,
+      20
     ],
     "status": "Baseline Updating",
     "anomaly_score": 0
@@ -41,6 +45,86 @@
     "first_seen": "2026-09-18T15:31:04.900715",
     "typical_hours": [
       15
+    ],
+    "status": "Trusted (Learning)",
+    "anomaly_score": 0
+  },
+  "14:ca:56:9b:40:2f": {
+    "first_seen": "2026-09-19T11:51:28.375213",
+    "typical_hours": [
+      11
+    ],
+    "status": "Trusted (Learning)",
+    "anomaly_score": 0
+  },
+  "02:7c:d4:a2:9d:e6": {
+    "first_seen": "2026-09-19T11:51:28.375213",
+    "typical_hours": [
+      11
+    ],
+    "status": "Trusted (Learning)",
+    "anomaly_score": 0
+  },
+  "1a:70:e0:f2:73:d4": {
+    "first_seen": "2026-09-19T11:51:28.375213",
+    "typical_hours": [
+      11
+    ],
+    "status": "Trusted (Learning)",
+    "anomaly_score": 0
+  },
+  "de:f9:9d:61:c2:f7": {
+    "first_seen": "2026-09-19T11:51:28.375213",
+    "typical_hours": [
+      11
+    ],
+    "status": "Trusted (Learning)",
+    "anomaly_score": 0
+  },
+  "26:b2:cf:99:ee:31": {
+    "first_seen": "2026-09-19T11:51:28.375213",
+    "typical_hours": [
+      11
+    ],
+    "status": "Trusted (Learning)",
+    "anomaly_score": 0
+  },
+  "e2:3d:54:a3:3d:a7": {
+    "first_seen": "2026-09-19T11:51:28.375213",
+    "typical_hours": [
+      11
+    ],
+    "status": "Trusted (Learning)",
+    "anomaly_score": 0
+  },
+  "b2:ce:4e:88:b7:c7": {
+    "first_seen": "2026-09-19T11:51:28.375213",
+    "typical_hours": [
+      11
+    ],
+    "status": "Trusted (Learning)",
+    "anomaly_score": 0
+  },
+  "2c:6d:c1:26:6b:c8": {
+    "first_seen": "2026-09-19T11:51:28.375213",
+    "typical_hours": [
+      11
+    ],
+    "status": "Trusted (Learning)",
+    "anomaly_score": 0
+  },
+  "12:75:46:e7:03:66": {
+    "first_seen": "2026-09-23T20:25:04.795580",
+    "typical_hours": [
+      20
+    ],
+    "status": "Trusted (Learning)",
+    "anomaly_score": 0
+  },
+  "5e:69:f2:29:71:bb": {
+    "first_seen": "2026-09-23T20:25:04.795580",
+    "typical_hours": [
+      20
     ],
     "status": "Trusted (Learning)",
     "anomaly_score": 0
